@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        .container{
+            width: 960px;
+            margin: 30px auto;
+        }
+        body{
+            line-height: 1.4cm;
+        }
+        .box{
+            background:rgb(218, 217, 217);
+            border:1px solid black;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        #box-2{
+            width: 50%;
+            float: left;
+        }
+        #box-3{
+            width: 45%;
+            float: right;
+        }
+        .clr{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id=box-1 class="box">
+            <h1>Box1</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nam consequatur quo quos suscipit quasi dignissimos veniam ut saepe ea.</p>
+        </div>
+        <div id=box-2 class="box">
+            <h1>Box2</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nam consequatur quo quos suscipit quasi dignissimos veniam ut saepe ea.</p>
+        </div>
+        <div id=box-3 class="box">
+            <h1>Box3</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nam consequatur quo quos suscipit quasi dignissimos veniam ut saepe ea.</p>
+        </div>
+        <div class="clr"></div>
+        <div id=box-4 class="box">
+            <h1>Box4</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nam consequatur quo quos suscipit quasi dignissimos veniam ut saepe ea.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
